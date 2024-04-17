@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor de Código</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="editor">
+        <textarea class="code-input" id="code"></textarea>
+        <button class="btn-analyze" id="analyze-btn">Analizar</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="output">
+        <div class="output-header">
+          <h2>Salida</h2>
+        </div>
+        <textarea class="output-text" id="output" rows=30 cols=80 readonly></textarea>
+      </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
